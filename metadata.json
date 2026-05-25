@@ -1,0 +1,6 @@
+{
+  "name": "Coastal Care Marine Detailing",
+  "description": "Premium mobile boat detailing, heavy oxidation restoration, and ceramic protection directly to your dock, lift, or marina in Key West and the Florida Keys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
