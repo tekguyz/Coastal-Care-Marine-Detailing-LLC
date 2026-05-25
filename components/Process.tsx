@@ -86,7 +86,7 @@ export default function Process() {
               className="bg-black/40 border border-gold/15 p-6 relative flex flex-col justify-between hover:border-gold/45 transition-colors duration-300 group"
             >
               {/* Massive Elegant Outlined Step Number Overlay */}
-              <span className="absolute top-4 right-4 text-4xl font-mono text-burgundy opacity-40 font-bold group-hover:text-gold/40 group-hover:opacity-100 transition-all duration-300">
+              <span className="absolute top-4 right-4 text-6xl font-mono text-gold opacity-[0.12] font-black group-hover:text-gold group-hover:opacity-20 transition-all duration-300 select-none">
                 {step.num}
               </span>
 
@@ -104,12 +104,6 @@ export default function Process() {
                     {step.desc}
                   </p>
                 </div>
-              </div>
-
-              {/* Card Footer Identifier Indicator */}
-              <div className="pt-6 mt-8 border-t border-white/5 flex items-center justify-between text-[10px] font-mono uppercase tracking-wider text-sand/40">
-                <span>Phase {step.num}</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-gold/50 group-hover:bg-gold" />
               </div>
 
             </motion.div>

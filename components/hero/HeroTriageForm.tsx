@@ -193,7 +193,6 @@ export default function HeroTriageForm() {
                         id="hero-callback-form"
                         name="hero-callback" 
                         onSubmit={handleSubmit}
-                        data-netlify="true"
                         className="space-y-3"
                       >
                         <input type="hidden" name="form-name" value="hero-callback" />

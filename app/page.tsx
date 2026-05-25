@@ -1,6 +1,5 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import LocalTrust from '@/components/LocalTrust';
 import Services from '@/components/Services';
 import About from '@/components/About';
 import Process from '@/components/Process';
@@ -18,10 +17,6 @@ export default function Home() {
         
         {/* 2. HIGH-CONVERTING EDITORIAL HERO SECTION */}
         <Hero />
-
-        {/* 3. LOCAL TRUST & BADGES CREDENTIALS SECTION */}
-        {/* Note: Managed as a custom modular placeholder */}
-        <LocalTrust />
 
         {/* 4. DETAIL PACKAGES & MENUS SERVICES LIST */}
         {/* Note: Managed as a custom modular placeholder */}

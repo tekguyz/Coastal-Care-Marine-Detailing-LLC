@@ -29,6 +29,9 @@ export default function About() {
               <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-serif font-bold text-burgundy leading-none tracking-tight">
                 Born & Raised <br />In The Florida Keys.
               </h2>
+              <p className="text-[10px] sm:text-xs font-mono text-burgundy tracking-[0.16em] uppercase font-bold pt-2">
+                KEY WEST & LOWER KEYS MOBILE EXECUTIONS
+              </p>
             </div>
             
             {/* Visual Trim - Sharp branded Accent Line */}
@@ -59,17 +62,17 @@ export default function About() {
             </p>
 
             {/* Micro Details Row */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-6 text-xs font-mono text-gold">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 text-xs font-mono">
               <div>
-                <span className="block text-[10px] text-slate/50 uppercase tracking-wider mb-1">FOUNDED BY</span>
+                <span className="block text-[10px] text-slate/50 uppercase tracking-[0.1em] mb-1">FOUNDED BY</span>
                 <span className="font-semibold uppercase text-burgundy">KEYS NATIVES</span>
               </div>
               <div>
-                <span className="block text-[10px] text-slate/50 uppercase tracking-wider mb-1">SERVICE AREA</span>
-                <span className="font-semibold uppercase text-burgundy">MM 0 - MM 30</span>
+                <span className="block text-[10px] text-slate/50 uppercase tracking-[0.1em] mb-1">SERVICE AREA</span>
+                <span className="font-semibold uppercase text-burgundy">KEY WEST & LOWER KEYS</span>
               </div>
-              <div className="col-span-2 md:col-span-1">
-                <span className="block text-[10px] text-slate/50 uppercase tracking-wider mb-1">MOBILE FLEET</span>
+              <div>
+                <span className="block text-[10px] text-slate/50 uppercase tracking-[0.1em] mb-1">MOBILE FLEET</span>
                 <span className="font-semibold uppercase text-burgundy">SELF-CONTAINED</span>
               </div>
             </div>

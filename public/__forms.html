@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Forms Registry</title>
+</head>
+<body>
+    <!-- This is a static HTML file to register Netlify Forms when using Next.js v5 with OpenNext -->
+    
+    <!-- 1. The Dockside Contact Form -->
+    <form name="dockside-contact" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="dockside-contact" />
+        <input type="text" name="bot-field" />
+        <input type="text" name="name" />
+        <input type="tel" name="phone" />
+        <select name="service-needed">
+            <option value="Maintenance Wash">Maintenance Wash</option>
+            <option value="Protection & Sealant">Protection & Sealant</option>
+            <option value="Full Restoration">Full Restoration</option>
+            <option value="Specialty Cleaning">Specialty Cleaning</option>
+        </select>
+        <input type="text" name="vessel-info" />
+    </form>
+
+    <!-- 2. The Hero Triage Form -->
+    <form name="hero-callback" data-netlify="true">
+        <input type="hidden" name="form-name" value="hero-callback" />
+        <input type="hidden" name="care-profile" />
+        <input type="tel" name="phone" />
+    </form>
+</body>
+</html>

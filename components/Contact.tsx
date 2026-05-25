@@ -123,7 +123,7 @@ export default function Contact() {
                   </button>
                 </motion.div>
               ) : (
-                <form name="dockside-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={handleFormSubmit} className="space-y-4">
+                <form name="dockside-contact" method="POST" onSubmit={handleFormSubmit} className="space-y-4">
                   <input type="hidden" name="form-name" value="dockside-contact" />
                   <div className="hidden">
                     <label htmlFor="contact-bot-field">

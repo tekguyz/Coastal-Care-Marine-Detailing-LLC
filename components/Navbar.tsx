@@ -136,6 +136,26 @@ export default function Navbar() {
                 </a>
               ))}
               
+              {/* Extra Mobile items mirroring desktop options */}
+              <a
+                href="#contact"
+                onClick={() => setIsOpen(false)}
+                className="block px-3 py-2 text-base font-semibold text-gold hover:text-white hover:bg-black/20 transition-all rounded-none"
+              >
+                Book Service
+              </a>
+              
+              <a
+                href={COMPANY_CONFIG.facebookUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+                className="flex items-center gap-2 px-3 py-2 text-base font-semibold text-white/80 hover:text-white hover:bg-black/20 transition-all rounded-none"
+              >
+                <Facebook className="w-5 h-5 text-gold" />
+                <span>Facebook</span>
+              </a>
+              
               <div className="pt-4 border-t border-gold/15 flex flex-col gap-3">
                 <p className="text-[10px] font-mono tracking-wider text-gold uppercase text-center">
                   Quick Mobile Booking
